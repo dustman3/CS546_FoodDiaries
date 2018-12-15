@@ -1,0 +1,21 @@
+<h1>Please Search by recipe name</h1>
+<form method="post">
+    Input<br>
+    <input type="text" name="search" placeholder="Search.."><br>
+    {{!-- <button type="submit">Search!!!</button> --}}
+</form>
+<div>
+
+{{!-- or loop print, this is ajax --}}
+{{#if errMsg}}
+    <p> {{errMsg}}</p> 
+{{/if}}
+    {{!-- <p>{{{resultStringify}}}</p>    --}}
+<ul class="resultList">
+  {{#each resultTitle}}
+    <li>{{this}}</li>
+  {{/each}}
+</ul>
+
+
+</div>
