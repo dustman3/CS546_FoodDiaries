@@ -1,0 +1,5 @@
+1. CORRECTED |||| In database, attribute "name " should change to "title" later, also in "data" folder
+2. CORRECTED |||| "like search"
+3. CORRECTED |||| empty input check && error MSG return
+4. CORRECTED |||| Make the search in lowercase, ignore what he/she uploads in lower or higher case
+5. CORRECTED |||| delete {"_id":xxxxx} and other useless from the out put
