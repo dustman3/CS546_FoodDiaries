@@ -1,0 +1,30 @@
+{
+  "name": "wangdanni",
+  "version": "1.0.0",
+  "main": ".mongorc.js",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "bluebird": "^3.5.2",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.6.1",
+    "eslint": "^5.10.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "prompt": "^1.0.0",
+    "request-promise": "^4.2.2",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Danni Wang",
+  "license": "ISC",
+  "keywords": [
+    "final",
+    "project"
+  ],
+  "description": ""
+}

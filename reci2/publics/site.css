@@ -1,0 +1,97 @@
+article{
+  margin : 150px 0px 15px 5px;
+}
+
+article{
+  text-align:center;
+}
+
+body
+  {
+  background-color: rgb(241,74,79);
+  }
+
+h1{
+  background-color: #dddfe2;;
+  border: 1px solid #dddfe2;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .3);
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.user{
+  margin-right: 2cm
+}
+
+.UN{
+  margin-right: 2cm
+}
+
+.PW{
+  margin-right: 2cm
+}
+
+.FN{
+  margin-right: 2cm
+}
+
+.LN{
+  margin-right: 2cm
+}
+
+.EM{
+  margin-right: 2.7cm
+}
+
+.passw{
+  margin-right: 2cm
+}
+
+h1 {
+  color:black;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 2;
+}
+
+body {
+  font-size: 14pt;
+}
+
+.new-post {
+  font-size: 14pt;  
+}
+
+.full-width-input{
+  width:145px;height:20px;line-height:10px;
+}
+
+.full-input{
+  width:145px;height:20px;line-height:10px;
+}
+
+button{
+  
+	border-width: 0px;
+	border-radius: 3px;
+	background: #dddfe2; 
+	cursor: pointer; 
+	outline: none; 
+	font-family: Microsoft YaHei; 
+	color:black; 
+	font-size: 17px; 
+}
+
+button:active {
+  background-color: #666;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+ul{
+  font-weight:bold;
+  margin : 20px 50px 15px 550px;
+}
+
