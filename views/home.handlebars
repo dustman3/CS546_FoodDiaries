@@ -1,0 +1,11 @@
+<div>
+
+    {{#each recipes}}
+    <div class="border">
+        <label>{{this.rtitle}}</label><br>
+        <form method="GET" action="/uploadRecepieData/{{this._id}}">
+            <button type="submit" value="{{this._id}}">OPEN</button>
+        </form>
+    </div>
+    {{/each}}
+</div>
