@@ -1,0 +1,37 @@
+<div class="some-align">
+    {{!-- this #if added on dec.13 by hy Rong --}}
+
+    {{#if errMsg}}
+    <div class="search">
+        <img src="../public/image/search-not.png" class="search-glass-image" alt="image"></div>
+    <p class="no-search">{{errMsg}}</p>
+    {{/if}}
+
+    {{#each recipes}}
+
+    {{# if this.img}}
+    <div class="border">
+        <img src="../{{this.rimagepath}}" class="imagealign" alt="image">
+        <label>{{this.rtitle}}</label><br>
+        <form method="GET" action="/uploadRecepieData/{{this._id}}">
+            <button type="submit" value="{{this._id}}" class="button3">OPEN</button>
+        </form>
+    </div>
+    {{/if}}
+
+    {{# if this.vid}}
+    <div class="border">
+        <label for="myVideo"></label>
+        <video class="imagealign" id="myVideo" controls>
+            <source src="../{{this.rvideopath}}" type="video/mp4">
+        </video>
+        <label>{{this.rtitle}}</label><br>
+        <form method="GET" action="/uploadRecepieData/{{this._id}}">
+            <button type="submit" value="{{this._id}}" class="button3">OPEN</button>
+        </form>
+    </div>
+    {{/if}}
+    {{!-- <img src="{{this.rimagepath}}" class="imagealign"><br> --}}
+    {{!-- <label>{{this.rtitle}}</label><br> --}}
+    {{/each}}
+</div>

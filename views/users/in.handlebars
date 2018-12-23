@@ -1,0 +1,20 @@
+<div class="box">
+  <h1>Login</h1>
+  <form id="login-form" action="/userlogin/login" method="post">
+    <div class="inputBox">
+      {{!-- <label for="my-username"></label> --}}
+      <input type="text" name="username" id="my-username" required>
+      <label for="my-username">Username</label>
+    </div>
+
+    <div class="inputBox">
+      
+      <input type="password" id="pass" name="password"  required>
+      <label for="pass">Password</label>
+    </div>
+    <div class="errmsg">{{message}}</div>
+    <button type="submit" value="Login">Login</button>
+
+  </form>
+  <a href="http://localhost:3000/userlogin/signup"><button type="submit" class="bbb">Sign up</button></a>
+</div>

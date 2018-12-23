@@ -1,0 +1,27 @@
+.noti{
+    display: inline-block;
+    text-align: center;
+    width: 800px;
+    height: 450px;
+    border: 1px solid rgb(0, 0, 0); 
+    margin: 50px 238px;
+    background-color: white;
+    padding: 75px;
+}
+.logout-image{
+    width: 100px;
+    height: 100px;
+}
+.text{
+    font-size: 40px;
+    font-weight: bold;
+}
+li{
+    list-style: none;
+}
+.bg{
+    background-color: rgb(245, 200, 117);
+}
+.list-text{
+    font-size: 20px;
+}

@@ -1,0 +1,29 @@
+<div class="container-contact100">
+    <div class="wrap-contact100">
+        <div class="setting-video">
+            <img src="../public/image/uploadV.png" class="set-video" alt="upimage">
+        </div>
+        <form action="/uploadRecepieData" method="post" id="myForm" enctype="multipart/form-data">
+            <span class="contact100-form-title">
+                Upload your recipe video
+            </span>
+
+            <div class="wrap-input100">
+                <label for="title"></label>
+                <input class="input100" id="title" type="text" name="title" placeholder="Title" required>
+            </div>
+            <label for="file" class="label-color">Upload the preparation video for your recipe</label>
+            <div class="wrap-input100">
+                <input type="file" id="file" name="file" class="upload-btn" accept="video/avi, video/flv, video/wmv, video/mov, video/mp4" required>Video supported : ( avi / flv / wmv / mov / mp4 /mkv )
+            </div>
+            <div class="container-contact100-form-btn">
+                <div class="wrap-contact100-form-btn">
+                    <div class="contact100-form-bgbtn"></div>
+                    <button class="contact100-form-btn">
+                        UPLOAD
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

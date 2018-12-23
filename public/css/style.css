@@ -1,0 +1,25 @@
+/*-----------------------------------------------------------------------------------
+	    About us
+        Built with Blocs
+-----------------------------------------------------------------------------------*/
+.bloc .container{
+	padding-left:0;
+	padding-right:0;
+}
+
+
+.bloc-lg{
+	padding:20px 50px;
+}
+
+
+.voffset-lg{
+	margin-top:80px;
+}
+
+
+.mg-md{
+	margin-top:10px;
+	margin-bottom:20px;
+}
+

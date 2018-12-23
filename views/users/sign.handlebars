@@ -1,0 +1,35 @@
+<div class="box">
+  <h1>Sign Up</h1>
+  <form id="login-form" action="/userlogin/sign" method="post">
+    <div class="inputBox">
+      <input type="text" name="username" id="uname" required>
+      <label for="uname">Username</label>
+    </div>
+
+    <div class="inputBox">
+      <input type="password" id="pass" name="password" required>
+      <label for="pass">Password</label>
+    </div>
+
+    <div class="inputBox">
+      <input type="text" id="fname" name="firstName" required>
+      <label for="fname">First Name</label>
+    </div>
+
+    <div class="inputBox">
+      <input type="text" id="lname" name="lastName" required>
+      <label for="lname">Last Name</label>
+    </div>
+
+    <div class="inputBox">
+      <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
+      <label id="email">Email</label>
+    </div>
+
+    <div class="errmsg">{{message}}</div>
+    <button type="submit">SignUp</button>
+
+  </form>
+  <a href="http://localhost:3000/userlogin"><button type="submit" class="bbb">Login</button></a>
+</div>
+

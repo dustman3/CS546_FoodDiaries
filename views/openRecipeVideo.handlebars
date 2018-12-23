@@ -1,0 +1,29 @@
+<div class="openresvid">
+  <form action="../uploadRecepieData/comments" method="post">
+    <div class="vid-rec">
+      <label for="my-video">
+        <video class="videorec" id="my-video" controls>
+          <source src="../{{recipe.rvideopath}}" type="video/mp4">
+        </video>
+      </label>
+    </div>
+    <div class="t-align">
+      <h1>{{recipe.rtitle}}</h1><br><br>
+    </div>
+    <div class="cmt-align">
+      <h2>Comments</h2>
+      <label for="comment"></label>
+      <input type="text" class="aa" name="comments" placeholder="Comments..." id="comment" required>
+      <input type="hidden" id="recipeId" name="recipeId" value={{recipe._id}}>
+      <input type="submit" name='submit' value="POST" class="btn-class" /><br>
+
+      {{#each recipe.rcomments}}
+      <div class="separate">
+        <div class="comment">
+          <p>{{this}}</p>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </form>
+</div>

@@ -1,0 +1,43 @@
+<div class="container-contact100">
+    
+    <div class="wrap-contact100">
+        <div class="setting-image">
+        <img src="../public/image/uploadR.png" class="set-image" alt="uimage">
+        </div>
+        <form action="/uploadRecepieData" method="post" id="myForm" enctype="multipart/form-data">
+            <span class="contact100-form-title">
+                Upload your recipe
+            </span>
+
+            <div class="wrap-input100">
+                <label for="title"></label>
+                <input class="input100" id="title" type="text" name="title" placeholder="Title" required>
+            </div>
+
+            <div class="wrap-input100">
+                <label for="ingrident"></label>
+                <textarea class="input100" id="ingrident" name="ingredients" placeholder="Your ingredients..." required></textarea>
+            </div>
+
+            <div class="wrap-input100">
+                <label for="step"></label>
+                <textarea class="input101" id="step" name="steps" placeholder="Your steps for the recipe..." required></textarea>
+            </div>
+
+            <label class="label-color">Upload Title Image for your recipe</label>
+            <div class="wrap-input100">
+                <label for="file"></label>
+                <input type="file" id="file" name="file" class="upload-btn" accept="image/jpeg, image/png, image/bmp image/jpg" required >Image supported : ( jpeg / png / bmp / jpg )
+            </div>
+
+            <div class="container-contact100-form-btn">
+                <div class="wrap-contact100-form-btn">
+                    <div class="contact100-form-bgbtn"></div>
+                    <button class="contact100-form-btn">
+                        UPLOAD
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

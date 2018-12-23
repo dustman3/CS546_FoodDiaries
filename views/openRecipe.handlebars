@@ -1,0 +1,25 @@
+<div class="openres">
+   <form action="../uploadRecepieData/comments" method="post">
+      <img src="../{{recipe.rimagepath}}" class="img-alignment" alt="image"><br>
+      <h1>{{recipe.rtitle}}</h1><br><br>
+      <label class="label-text">Ingredients:</label><br><br>
+      <div class="wrap-input100">
+         <label class="label-text-not">{{recipe.ringredients}}</label></div><br>
+      <label class="label-text">Steps:</label><br><br>
+      <div class="wrap-input100">
+
+         <label class="label-text-not">{{recipe.rsteps}}</label></div>
+      <h2>Comments</h2>
+      <label for="comment"></label>
+      <input type="text" class="aa" name="comments" placeholder="Comments..." id="comment" required>
+      <input type="hidden" id="recipeId" name="recipeId" value={{recipe._id}}>
+      <input type="submit" name='submit' value="POST" class="btn-class2" /><br><br>
+   </form>
+   {{#each recipe.rcomments}}
+   <div class="separate">
+   <div class="comment">
+      <p>{{this}}</p>
+   </div>
+   </div>
+   {{/each}}
+</div>
